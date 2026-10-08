@@ -1,0 +1,30 @@
+# VS Code: keep shared extension recommendations, ignore local workspace state
+.vscode/*
+!.vscode/extensions.json
+
+# VS Code local history
+.history/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and backup files
+*.tmp
+*.swp
+*.swo
+*~
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+
+# Python virtual environments
+.venv/
+venv/
